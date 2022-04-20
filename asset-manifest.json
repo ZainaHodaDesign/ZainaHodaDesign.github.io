@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1964e084.css",
+    "main.js": "/static/js/main.7fb29f8c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/splashscreen.gif": "/static/media/splashscreen.30545040429584dab5b3.gif",
+    "static/media/Zainasketch2.png": "/static/media/Zainasketch2.a037f4893b7efa7e97b5.png",
+    "static/media/Zainafinal.png": "/static/media/Zainafinal.0ac774d82f4cd6cbc488.png",
+    "static/media/Zainafinal2.png": "/static/media/Zainafinal2.1363fe3a159d1f3809d7.png",
+    "static/media/Zainasketch.png": "/static/media/Zainasketch.2d6c23dfbd9dbda4c291.png",
+    "static/media/Middlesexlogo.png": "/static/media/Middlesexlogo.d0fe58e1f43d0c450c47.png",
+    "index.html": "/index.html",
+    "main.1964e084.css.map": "/static/css/main.1964e084.css.map",
+    "main.7fb29f8c.js.map": "/static/js/main.7fb29f8c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1964e084.css",
+    "static/js/main.7fb29f8c.js"
+  ]
+}
