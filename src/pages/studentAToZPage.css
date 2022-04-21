@@ -1,0 +1,135 @@
+body {
+    color: white;
+  }
+  
+  .alphabet {
+    font-size: 50px;
+    margin-top: -15px;
+  }
+
+  
+
+  .backgroundcolor {
+    transition-property: color, background-color, border-color,
+      text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+      backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+    transition-duration: 800ms;
+  
+    z-index: -2;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #202221;
+    background-position: center center;
+    background:
+          linear-gradient(-90deg, rgba(229, 229, 229, 0.04) 1px, transparent 1px),
+          linear-gradient(rgba(229, 229, 229, 0.04) 1px, transparent 1px),
+          #202221;
+      background-size:
+          80px 80px;
+  }
+  
+  .button1:hover ~ .backgroundcolor {
+    background-color: #bbef4b;
+  }
+  
+  .button2:hover ~ .backgroundcolor {
+    background-color: #ea33a3;
+  }
+  
+  .button3:hover ~ .backgroundcolor {
+    background-color: #0e2bf5;
+  }
+  
+  .button4:hover ~ .backgroundcolor {
+    background-color: #f5db49;
+  }
+
+  .student-name {
+    text-align: start;
+  }
+
+  .student-name:hover {
+    font-weight: bolder;
+  }
+
+  /* #thumbwrap {
+	position:relative;
+}
+.thumb span { 
+	margin: auto;
+  display: block;
+	visibility:hidden;
+}
+.thumb:hover, .thumb:hover span { 
+	visibility:visible;
+	top:0;
+	left:100px; 
+	z-index:1;
+} */
+
+.studentImageS {
+  height:15px;
+  transition-property: background-image;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-duration: 600ms;
+}
+
+.namebutton-sheikha:hover ~ .studentImageS {
+  position: absolute;
+  z-index: 1;
+  top: 26%;
+  left: 20%;
+  height: 500px;
+  aspect-ratio: 1;
+  background-image: url('https://i.ibb.co/4MML71p/sheikha-albloushi3.png');
+  background-size: contain;
+}
+
+.namebutton-sheikha:hover ~ .studentImageSSpacer {
+  height: 15px;
+}
+
+.namebutton-stacy:hover ~ .studentImageSSpacer {
+  height: 15px;
+}
+
+.namebutton-stacy:hover ~ .studentImageS {
+  position: absolute;
+  z-index: 1;
+  top: 26%;
+  left: 20%;
+  height: 500px;
+  aspect-ratio: 1;
+  background-image: url('https://i.ibb.co/QF2gz1v/stacy-lorenzo1.jpg');
+  background-size: contain;
+}
+
+.studentImageZ {
+  height:15px;
+  transition-property: background-image;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-duration: 600ms;
+}
+
+.namebutton-zaina:hover ~ .studentImageZ {
+  position: absolute;
+  z-index: 1;
+  top: 26%;
+  left: 20%;
+  height: 500px;
+  aspect-ratio: 1;
+  background-image: url('https://i.ibb.co/QC0BTmr/zaina-hoda1.png');
+  background-size: contain;
+}
+
+.namebutton-zaina:hover ~ .studentImageZSpacer {
+  height: 15px;
+}

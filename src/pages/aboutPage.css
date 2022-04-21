@@ -1,0 +1,142 @@
+body {
+  color: white;
+}
+
+.header {
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size:84px;
+  color: #EA33A3;
+}
+
+.abouttext {
+  padding-top: 50px;
+  padding-right: 250px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.backgroundcolor {
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-duration: 800ms;
+
+  z-index: -1;
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #202221;
+  background-position: center center;
+  background:
+        linear-gradient(-90deg, rgba(229, 229, 229, 0.04) 1px, transparent 1px),
+        linear-gradient(rgba(229, 229, 229, 0.04) 1px, transparent 1px),
+        #202221;
+    background-size:
+        80px 80px;
+}
+
+.button1:hover ~ .backgroundcolor {
+  background-color: #bbef4b;
+}
+
+.button2:hover ~ .backgroundcolor {
+  background-color: #ea33a3;
+}
+
+.button3:hover ~ .backgroundcolor {
+  background-color: #0e2bf5;
+}
+
+.button4:hover ~ .backgroundcolor {
+  background-color: #f5db49;
+}
+
+.greybutton {
+  background-color: #C4C4C4;
+  aspect-ratio: 1/1;
+
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, background-image
+    backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-duration: 600ms;
+
+  background-size: contain;
+}
+
+.greybutton:hover {
+  transform: scale(1.3);
+}
+
+.zainabutton {
+  background-image: url("../assets/Zainasketch.png");
+}
+
+.zainabutton:hover {
+  background-image: url("../assets/Zainafinal.png");
+}
+
+.zainabutton2 {
+  background-image: url("../assets/Zainasketch2.png");
+}
+
+.zainabutton2:hover {
+  background-image: url("../assets/Zainafinal2.png");
+}
+
+.zainabutton3 {
+  background-image: url("../assets/sheikhasketch1.png")
+}
+
+.zainabutton3:hover {
+  background-image: url("../assets/sheikhafinal1.png");
+}
+
+.zainabutton4 {
+  background-image: url("../assets/sheikhasketch2.png")
+}
+
+.zainabutton4:hover {
+  background-image: url("../assets/sheikhafinal2.png");
+}
+
+.zainabutton5 {
+  background-image: url("../assets/sheikhasketch3.png")
+}
+
+.zainabutton5:hover {
+  background-image: url("../assets/sheikhafinal3.png");
+}
+
+.zainabutton6 {
+  background-image: url("../assets/sheikhasketch4.png")
+}
+
+.zainabutton6:hover {
+  background-image: url("../assets/sheikhafinal4.png");
+}
+
+
+.object {
+  animation: MoveUpDown 2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  position: absolute;
+  left: 9%;
+  bottom: 50%;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
