@@ -1,21 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.1964e084.css",
-    "main.js": "/static/js/main.7fb29f8c.js",
+    "main.css": "/static/css/main.c75e29f9.css",
+    "main.js": "/static/js/main.7bd5c9f5.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/splashscreen.gif": "/static/media/splashscreen.30545040429584dab5b3.gif",
     "static/media/Zainasketch2.png": "/static/media/Zainasketch2.a037f4893b7efa7e97b5.png",
     "static/media/Zainafinal.png": "/static/media/Zainafinal.0ac774d82f4cd6cbc488.png",
+    "static/media/sheikhafinal3.png": "/static/media/sheikhafinal3.494b9b3ff5bed5ce9c00.png",
+    "static/media/sheikhafinal2.png": "/static/media/sheikhafinal2.5323430f31cf00deb95b.png",
+    "static/media/sheikhafinal4.png": "/static/media/sheikhafinal4.f0638ac2832aaa1035a6.png",
+    "static/media/sheikhafinal1.png": "/static/media/sheikhafinal1.f3f4e3dbc5930afbc415.png",
     "static/media/Zainafinal2.png": "/static/media/Zainafinal2.1363fe3a159d1f3809d7.png",
     "static/media/Zainasketch.png": "/static/media/Zainasketch.2d6c23dfbd9dbda4c291.png",
+    "static/media/sheikhasketch1.png": "/static/media/sheikhasketch1.f1c54ef94ef2a55887e0.png",
+    "static/media/sheikhasketch4.png": "/static/media/sheikhasketch4.79402f768ef898c82740.png",
+    "static/media/sheikhasketch3.png": "/static/media/sheikhasketch3.8061da3138ad6c12ac18.png",
+    "static/media/sheikhasketch2.png": "/static/media/sheikhasketch2.b82586575a10cac30510.png",
     "static/media/Middlesexlogo.png": "/static/media/Middlesexlogo.d0fe58e1f43d0c450c47.png",
     "index.html": "/index.html",
-    "main.1964e084.css.map": "/static/css/main.1964e084.css.map",
-    "main.7fb29f8c.js.map": "/static/js/main.7fb29f8c.js.map",
+    "main.c75e29f9.css.map": "/static/css/main.c75e29f9.css.map",
+    "main.7bd5c9f5.js.map": "/static/js/main.7bd5c9f5.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1964e084.css",
-    "static/js/main.7fb29f8c.js"
+    "static/css/main.c75e29f9.css",
+    "static/js/main.7bd5c9f5.js"
   ]
 }
